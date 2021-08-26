@@ -1,12 +1,13 @@
 #include<iostream>
 using namespace std;
-#define SIZE 5
 int main()
 {
-    int arr[5]={1,2,3,4,5};
-    for (int i = 0; i < SIZE; i++)
+    int arr[]={1,2,3,4,5};
+    int j=0;
+    for (int i : arr)
     {
-        cout<<"arr["<<i<<"] = "<<arr[i]<<endl;
+        cout<<"arr["<<j<<"] = "<<i<<endl;
+        j++;
     }
     return 0;
 }
