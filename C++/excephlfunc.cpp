@@ -1,4 +1,4 @@
-//program to demonstrate exception handling with classes
+//program to demonstrate exception handling with functions
 #include<iostream>
 using namespace std;
 void err(int j)
