@@ -1,3 +1,4 @@
+//program to demonstrate iterating through an array in C++ with range based for loops
 #include<iostream>
 using namespace std;
 int main()
