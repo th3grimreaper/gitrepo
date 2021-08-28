@@ -3,7 +3,14 @@
 using namespace std;
 void err(int j)
 {
-    cout<<j<<" cannot be accepted as an argument in this context."<<'\n';
+    if (j<0)
+        cout<<j<<" cannot be accepted as an argument in this context."<<'\n';
+    if(j==0)
+        cout<<j<<" returns 0 so enter any other number greater than 0."<<'\n';
+}
+void fun(int num)
+{
+    throw num;
 }
 int square(int x)
 {
@@ -17,6 +24,8 @@ int main()
     try {
         if (i<0)
             throw i;
+        if (i==0)
+            fun(i);
         cout<<"Square of "<<i<<" is : "<<square(i)<<'\n'; 
     }
     catch(int e) {
