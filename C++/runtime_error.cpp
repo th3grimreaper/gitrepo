@@ -11,7 +11,7 @@ int main()
   cin>>name;  
   try {
     if(name==s[0] || name==s[1] || name==s[2])
-      cout<<"you got it right";
+      cout<<"you got it right"<<'\n';
     else 
       throw name;
   }
