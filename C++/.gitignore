@@ -5,3 +5,4 @@ newstring
 vector
 constructor
 friendDerive
+runtime_error
