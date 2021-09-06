@@ -6,3 +6,4 @@ vector
 constructor
 friendDerive
 runtime_error
+privateConst
