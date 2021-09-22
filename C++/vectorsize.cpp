@@ -17,5 +17,9 @@ int main()
         std::cout<<"val["<<j<<"] = "<<val.at(j)<<'\n';
         j++;
     }
+	if(val.empty())
+		std::cout<<"Vector is empty."<<'\n';
+	else
+		std::cout<<"Vector is not empty."<<'\n';
     return 0;
 }
