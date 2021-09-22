@@ -14,7 +14,7 @@ int main()
     std::cout<<"Here is a vector of size "<<size<<" in sorted order,\nthe values of which are : "<<'\n';
     int j=0;
     for(int i:val) {
-        std::cout<<"val["<<j<<"] = "<<val.at(j)<<'\n';
+        std::cout<<"val["<<j<<"] = "<<i<<'\n';
         j++;
     }
 	if(val.empty())
