@@ -25,10 +25,10 @@ int main()
     try {
         if (x<0)
             throw obj;
-        cout<<"Square of "<<x<<" is : "<<obj.square()<<'\n'; 
+        cout<<"Square of "<<x<<" is : "<<obj.square()<<'\n';
     }
     catch(erroneous o) {
         o.err();
-    }   
+    }
     return 0;
 }
