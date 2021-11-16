@@ -9,7 +9,7 @@ class A {
     private:
         string s1,s2;
         static int minCount;
-        A() 
+        A()
         {
             s1="th3grimreaper";
             s2="qw@12";
