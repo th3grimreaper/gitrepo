@@ -8,11 +8,11 @@ int main()
   string s[3]={"sai", "sid", "manan"};
   cout<<"enter a name from your 3 men gang in small : ";
   string name;
-  cin>>name;  
+  cin>>name;
   try {
     if(name==s[0] || name==s[1] || name==s[2])
       cout<<"you got it right"<<'\n';
-    else 
+    else
       throw name;
   }
   catch (string name) {
