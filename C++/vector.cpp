@@ -23,7 +23,7 @@ int main()
         temperature.push_back(i);
     }
     //using range based for loop to iterate through a vector
-    for (double i : temperature) 
+    for (double i : temperature)
     {
         cout<<i<<endl;
     }
